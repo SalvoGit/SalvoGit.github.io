@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Cormorant+Infant:ital@1&display=swap');
+
+body{
+    background-color: #FCFAFA;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header{
+    background-image: url("/image/Usa_flag.jpg");
+    text-align: center;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-family: Secret;
+}
+
+p{
+    line-height: 2em;
+    text-align: justify;
+}
+
+.noDec ul{
+    list-style-type: none;
+}
+
+.header hr{
+    background-color: #f4f4f4;
+}
+
+.header h1{
+    font-size: 7em;
+    color: #f4f4f4;
+    text-shadow: 2px 2px 4px black;
+}
+
+.header h3{
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 2em;
+}
+
+.bd-navbar{
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 6px 0 #00000075, inset 0 -1px 0px 0px #dadce0;
+}
+
+.mainDiv{
+    background-color: white;
+    box-shadow: 0 2px 6px 0 #00000075, inset 0 -1px 0px 0px #dadce0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainDiv ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+    line-height: 75px;
+}
+
+.mainDiv ul li{
+    float: left;
+}
+
+.mainDiv ul li a{
+    text-decoration: none;
+    background-color: aquamarine;
+    display: block;
+    padding: 0 28px;
+}
+
+.footer {
+    background:#f8f9fa;
+    width:100%;
+    text-align:center;
+  }
